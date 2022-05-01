@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,19 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.254,
+        0.5,
+        0.75,
+        3.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -414,6 +431,50 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "47cab9f2-c9eb-4a9b-923b-8e3ff1e36dee",
+      "LM1117 fixed voltage"
+    ],
+    [
+      "f88dfef8-8d41-455d-98b9-e505b0fe42a0",
+      "Relay 10A"
+    ],
+    [
+      "4c4116a0-6b54-48d2-93c5-74eff3e4b8a4",
+      "Relay 10A1"
+    ],
+    [
+      "d8af53df-2092-4965-8eba-00cf85442882",
+      "LM1117 fixed voltage1"
+    ],
+    [
+      "eb3822a0-347c-4e64-8d15-826d07122948",
+      "CAN Interface"
+    ],
+    [
+      "5c2fad6c-35f2-43ba-8f8a-fd4c91b57c2e",
+      "NANO"
+    ],
+    [
+      "7c313b32-9c1e-49b6-8ba8-4fc4664d4b95",
+      "ESP32"
+    ],
+    [
+      "4f5a8807-77ff-483d-b06b-d4aed27415c4",
+      "Relay 10A2"
+    ],
+    [
+      "f5539d92-57e7-44fd-a692-8b255de581bc",
+      "TXS0102_instance1"
+    ],
+    [
+      "7cb6d2b6-7b36-4c3c-9606-c80baed356b5",
+      "TXS0102_instance2"
+    ],
+    [
+      "a7e0698a-f05d-4f5b-820f-174aa5c88ddd",
+      "Relay 10A3"
     ]
   ],
   "text_variables": {}
