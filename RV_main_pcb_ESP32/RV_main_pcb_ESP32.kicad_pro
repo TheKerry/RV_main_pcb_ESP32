@@ -123,6 +123,7 @@
         0.254,
         0.5,
         0.75,
+        1.0,
         3.5
       ],
       "via_dimensions": [
@@ -433,10 +434,6 @@
       ""
     ],
     [
-      "47cab9f2-c9eb-4a9b-923b-8e3ff1e36dee",
-      "LM1117 fixed voltage"
-    ],
-    [
       "f88dfef8-8d41-455d-98b9-e505b0fe42a0",
       "Relay 10A"
     ],
@@ -475,6 +472,10 @@
     [
       "a7e0698a-f05d-4f5b-820f-174aa5c88ddd",
       "Relay 10A3"
+    ],
+    [
+      "004c30d9-3726-4058-8db0-bb836a778fc7",
+      "5V 3A Buck"
     ]
   ],
   "text_variables": {}
