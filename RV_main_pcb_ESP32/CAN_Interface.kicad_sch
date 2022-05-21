@@ -374,7 +374,6 @@
     )
   )
 
-
   (junction (at 161.29 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 10a6ace5-311a-4bea-b965-4ad8cabe8217)
   )
@@ -905,7 +904,7 @@
     (in_bom yes) (on_board yes)
     (uuid ada9d573-f470-4c42-b26d-933060c497aa)
     (property "Reference" "C8" (id 0) (at 95.25 90.17 90))
-    (property "Value" "C" (id 1) (at 97.79 96.52 90))
+    (property "Value" "27pF" (id 1) (at 97.79 96.52 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 99.06 93.0148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -920,7 +919,7 @@
     (in_bom yes) (on_board yes)
     (uuid b6d9b54f-e2b9-4118-b394-cf9228672cad)
     (property "Reference" "C7" (id 0) (at 95.25 80.01 90))
-    (property "Value" "C" (id 1) (at 97.79 86.36 90))
+    (property "Value" "27pF" (id 1) (at 97.79 86.36 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 99.06 82.8548 0)
       (effects (font (size 1.27 1.27)) hide)
     )

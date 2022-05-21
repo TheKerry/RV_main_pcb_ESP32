@@ -141,7 +141,6 @@
     )
   )
 
-
   (junction (at 95.25 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 583fc56f-29dc-4980-b5a0-f689942d767c)
   )
@@ -221,7 +220,7 @@
     (uuid b71f4499-3834-42d3-9ea5-f0abd4b04969)
   )
 
-  (symbol (lib_id "Device:C") (at 95.25 76.2 0)
+  (symbol (lib_id "Device:C") (at 95.25 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 336d8791-6675-4891-bf89-17fc79d5c9dc)
     (property "Reference" "C1" (id 0) (at 88.8492 76.2 90))
@@ -236,7 +235,7 @@
     (pin "2" (uuid 65fa87d6-914f-41fe-b419-4b5f662ec411))
   )
 
-  (symbol (lib_id "power:GND") (at 106.68 81.28 0)
+  (symbol (lib_id "power:GND") (at 106.68 81.28 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6574d2c1-53a1-4ede-a66f-36e8524cbc82)
     (property "Reference" "#PWR0124" (id 0) (at 106.68 87.63 0)
@@ -252,7 +251,7 @@
     (pin "1" (uuid a8fdb774-8b59-4e02-8c06-ea40bf2219e0))
   )
 
-  (symbol (lib_id "Device:C") (at 116.84 76.2 180)
+  (symbol (lib_id "Device:C") (at 116.84 76.2 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bbe99250-b7c9-4ca9-80dd-92cece10f04f)
     (property "Reference" "C2" (id 0) (at 123.2408 76.2 90))
@@ -267,7 +266,7 @@
     (pin "2" (uuid 0a05c4db-2c3d-4165-8365-666c36e5816b))
   )
 
-  (symbol (lib_id "Regulator_Linear:LM1117-3.3") (at 106.68 71.12 0)
+  (symbol (lib_id "Regulator_Linear:LM1117-3.3") (at 106.68 71.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d19dd440-e8d2-45e9-8e68-caf65c8db9cc)
     (property "Reference" "U1" (id 0) (at 106.68 64.9732 0))
