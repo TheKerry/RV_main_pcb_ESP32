@@ -991,6 +991,12 @@
     (uuid f5c99a5a-714d-4f96-82c2-b237fc1191b2)
   )
 
+  (text "Programming procedure:\n1. USB to TTL wiring:\n	TX - RX\n	RX - TX\n	GND - GND\n2. HOLD FLASH continuously\n3. Pull down EN short\n4. Upload code (ESP32 DEVKIT V1)\n5. After upload: release FLASH button\n6. Pull down EN short to start board\n"
+    (at 220.98 50.8 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 19a450e3-949c-4268-b3cd-05ce76ff367a)
+  )
+
   (label "ESP_TX" (at 123.19 58.42 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 8f0bf6e7-bef6-4532-a8e4-a612efc1bb9d)

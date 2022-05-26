@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-05-22")
+    (rev "1")
+  )
+
   (lib_symbols
     (symbol "Analog_ADC:INA226" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -6.35 11.43 0)
@@ -1327,8 +1332,8 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 1b74a963-4041-41fd-82b2-898d95bf953d)
   )
-  (text "ToDo:\n- Namen vom I2C vom INA anpassen\n- I2C TXS Levelshifter Pull-up überprüfen\n"
-    (at 168.91 163.83 0)
+  (text "ToDo:\n- Namen vom I2C vom INA anpassen\n- I2C TXS Levelshifter Pull-up überprüfen\n- Footprint DC DC Spule anpassen\n- Footprint DC DC Diode anpassen\n- ESP32: Add button EN -> GND\n- ADD UART header Atmega328p\n- Add 100nF to CH340C 3V3 - GND\n- Swap RX and TX on CH340C\n- remove 0 ohm resistors on Levelshifter\n- remove 0 ohm resistor on CAN interface\n- increase cap to 0603 on levelshifter\n- increase pad size of fuse holder\n- add reverse polarity protection\n- add ESD and EMV protection\n\n"
+    (at 92.71 151.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 23042c19-aa61-4f61-9875-d07f1b7cfa13)
   )
@@ -1348,7 +1353,7 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 7cf2d10e-2384-426c-b174-eee4fb6fd72b)
   )
-  (text "WLED_ESP8266_molex_microfit RELAY" (at 227.33 57.15 0)
+  (text "Kofferraumbeleuchtung unten" (at 233.68 57.15 0)
     (effects (font (size 1.8 1.8)) (justify left bottom))
     (uuid 7fff68a9-e7c5-467d-a047-20b2613f8ba2)
   )
@@ -2922,6 +2927,18 @@
     )
   )
 
+  (sheet (at 190.5 153.67) (size 25.4 11.43)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b0b067cc-ca57-40a3-a560-afa57094e1fd)
+    (property "Sheet name" "changelog" (id 0) (at 198.12 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "changelog.kicad_sch" (id 1) (at 190.5 162.56 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 238.76 91.44) (size 13.97 7.62)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -3066,6 +3083,7 @@
     (path "/f5539d92-57e7-44fd-a692-8b255de581bc" (page "10"))
     (path "/7cb6d2b6-7b36-4c3c-9606-c80baed356b5" (page "11"))
     (path "/a7e0698a-f05d-4f5b-820f-174aa5c88ddd" (page "12"))
+    (path "/b0b067cc-ca57-40a3-a560-afa57094e1fd" (page "13"))
     (path "/004c30d9-3726-4058-8db0-bb836a778fc7" (page "13"))
   )
 
