@@ -6973,7 +6973,7 @@
   (gr_text "12V" (at 82.25 70.25 90) (layer "F.SilkS") (tstamp 0a6acd9b-02d3-4422-bde7-0d48df425bfa)
     (effects (font (size 2 2) (thickness 0.5)))
   )
-  (gr_text "RV MAIN PCB Rev.1" (at 128.75 121.25) (layer "F.SilkS") (tstamp 3a2ea0a1-3758-49f0-a092-c463bfd4727f)
+  (gr_text "RV MAIN PCB Rev.1.1\n" (at 128.75 121.25) (layer "F.SilkS") (tstamp 3a2ea0a1-3758-49f0-a092-c463bfd4727f)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "3.3V LDO" (at 141.25 130 90) (layer "F.SilkS") (tstamp 3ea3046e-1bbd-4f69-905b-bb37e7022948)
